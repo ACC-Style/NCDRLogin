@@ -22,7 +22,7 @@ categories: jekyll update
          <div class="absolute t_n1 r_3">
          {% include featureTabFlag.html %}
          </div>
-        <div class="p_4 p-t_5"><h2 class="lh_1 c_primary">Google<br />Authenticator
+        <div class="p_4 p-t_5"><h2 class="lh_1 c_primary">Authenticator<br>App
         </h2>
         <p class="font_0">Some informationa around it</p></div>
         <div
@@ -33,7 +33,7 @@ categories: jekyll update
          class="flex_none w_30 m-x_auto br_solid br_black-3 h:bg_primary-4 relative br_1 br_radius flex_column flex">
         <div class="p_4 p-t_5">
             <h2 class="lh_1 c_primary">Email</h2>
-            <p class="font_0">Some informationa around it</p>
+            <p class="font_0">This will email a temporary verificaiton code to you every time you login. Check your spam folder if you not recieve the email promtly.</p>
         </div>
         <div
              class="bg_black-5 c_white br-br_radius br-bl_radius br-t_1 br_solid br_black-3 m-t_auto flex justify_center text_center font_3 p-y_4 m-b_n1">
@@ -43,7 +43,7 @@ categories: jekyll update
          class="flex_none w_30 m-x_auto br_solid br_black-3 h:bg_primary-4 relative br_1 br_radius flex_column flex">
         <div class="p_4 p-t_5">
             <h2 class="lh_1 c_primary">Text Message (SMS)</h2>
-            <p class="font_0">Some informationa around it</p>
+            <p class="font_0">We will text you a verification code to your phone every time you login.</p>
         </div>
         <div
              class="bg_black-5 c_white br-br_radius br-bl_radius br-t_1 br_solid br_black-3 m-t_auto flex justify_center text_center font_3 p-y_4 m-b_n1">
