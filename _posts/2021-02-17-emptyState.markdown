@@ -10,6 +10,7 @@ categories: jekyll update
 </div>
 </div>
 <div class="m_auto max-w_30 p-y_5">
+<h1>Login</h1>
 {% include userInput.html %}
 {% include passwordInput.html %}
 {% include loginButtonDisabled.html %}

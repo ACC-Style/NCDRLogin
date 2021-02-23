@@ -50,4 +50,5 @@ categories: jekyll update
             <i class="m-t_2 far fa-circle"></i></div>
     </div>
 </div>
-
+<div class="br-t_1 br_solid br_black-3 bg_black-1 text_center p_3 m-t_auto shadow_n2"><a class="link c_primary-n1">I didn't receive a code.</a> |
+<a class="link c_primary-n1">I don't have access to any of these modes.</a></div>

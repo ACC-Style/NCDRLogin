@@ -45,7 +45,7 @@ categories: jekyll update
     <div class="font-size_down">
     </div>
 </fieldset>
-<div class="text_right m-b_4">
+<div class="text_center m-b_4">
     <button class="ease_out transition_1 f:outline_none text_center br_none inline-block w_auto font_medium p-y_3 lh_2 p-x_4 font_1 font_2:md  c_white h:c_white h:bg_primary-n2 br_primary-n3 bg_primary shadow_overlap-light br_radius" label="Log In"><span class="flex block justify_center">
         <i class="far fa-envelope p-r_3 lh_2"></i>
         <span>Email Code</span></span></button>

@@ -13,6 +13,7 @@ categories: jekyll update
 <div class="m-b_4 br_solid br_1 br_alert bg_alert-5 c_black font_1 p_4 br_radius">
 The <strong class="font_bold">username</strong> or <strong class="font_bold">password</strong> you have entered is incorrect. Please try again.
 </div>
+<h1>Login</h1>
 {% include userInput.html %}
 {% include passwordInput.html %}
 {% include loginButton.html %}
