@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Two Factor Set SMS"
+title: "Two Factor PickS Single Phone Number"
 date: 2021-02-17 10:40:48 -0500
 categories: jekyll update
 ---
