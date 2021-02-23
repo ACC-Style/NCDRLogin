@@ -1,0 +1,63 @@
+---
+layout: post
+title:  "NCDR Registry Selection"
+date:   2021-02-17 10:40:48 -0500
+categories: jekyll update
+---
+<div class="bg_acc flex justify_center texture_dust m-b_5">
+<div class="b_n3 bg_success br_3 br_circle br_solid br_white-9 flex_none m-b_n5 m-t_5 m-x_auto p_3 shadow_overlap-light c_white " style="width:100px;height:100px;align-content: center; justify-content: center;display: grid;">
+            <span class="fa-stack c_white  font_5">
+            <i class="fas fa-file fa-stack-2x"></i>
+            <i class="fas fa-cog fa-stack-1x c_success m-t_3"></i>
+            </span>  
+</div>
+</div>
+<div class="m_auto max-w_30 p-y_5">
+<h1>Registry Selection</h1>
+<p>You have access to more then one registry please select the registry you want to access. </p>
+<ul class="ul_none">
+    <li class="p_3 text_left">    
+                <div class="flex flex_none m-b_3 m-t_2">
+                    <button class="bg_primary br_none br_primary-n3 br_radius c_white ease_out f:outline_none font_1 font_2:md font_medium h:bg_primary-n2 h:c_white inline-block lh_2 m-r_4 p-x_4 p-y_3 shadow_overlap-light text_center transition_1 w_100 w_auto" label="Log In">
+        <span class="flex block justify_center">
+        <span>Registry A</span>
+        <i class="fas fa-sign-in-alt p-l_3 lh_2"></i>
+        </span>
+    </button>
+                <input name="uniqueRadio" id="radio_A" type="radio" required="required" class="flex_none font_3 lh_0 self_center " value="1">
+                <label for="radio_A" class="block flex_auto m-b_0 p-l_3 text_left w_100 self_center">
+                    Make Default Registry
+                </label>
+            </div>
+    </li>
+    <li class="p_3 text_left">    
+                <div class="flex flex_none m-b_3 m-t_2">
+                    <button class="bg_primary br_none br_primary-n3 br_radius c_white ease_out f:outline_none font_1 font_2:md font_medium h:bg_primary-n2 h:c_white inline-block lh_2 m-r_4 p-x_4 p-y_3 shadow_overlap-light text_center transition_1 w_100 w_auto" label="Log In">
+        <span class="flex block justify_center">
+        <span>Registry B</span>
+        <i class="fas fa-sign-in-alt p-l_3 lh_2"></i>
+        </span>
+    </button>
+                <input name="uniqueRadio" id="radio_B" type="radio" required="required" class="flex_none font_3 lh_0 self_center " value="1">
+                <label for="radio_B" class="block flex_auto m-b_0 p-l_3 text_left w_100 self_center">
+                    Make Default Registry
+                </label>
+            </div>
+    </li>
+        <li class="p_3 text_left">    
+                <div class="flex flex_none m-b_3 m-t_2">
+                    <button class="bg_primary br_none br_primary-n3 br_radius c_white ease_out f:outline_none font_1 font_2:md font_medium h:bg_primary-n2 h:c_white inline-block lh_2 m-r_4 p-x_4 p-y_3 shadow_overlap-light text_center transition_1 w_100 w_auto" label="Log In">
+        <span class="flex block justify_center">
+        <span>Registry C</span>
+        <i class="fas fa-sign-in-alt p-l_3 lh_2"></i>
+        </span>
+    </button>
+                <input name="uniqueRadio" id="radio_C" type="radio" required="required" class="flex_none font_3 lh_0 self_center " value="1">
+                <label for="radio_C" class="block flex_auto m-b_0 p-l_3 text_left w_100 self_center">
+                    Make Default Registry
+                </label>
+            </div>
+    </li>
+</ul>
+</div>
+<div class="br-t_1 br_solid br_black-3 bg_black-1 text_center p_3 m-t_auto shadow_n1"><a class="link c_primary-n1">I don't see my registry</a></div>

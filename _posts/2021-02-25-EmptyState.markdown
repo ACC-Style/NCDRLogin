@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Empty State"
-date:   2021-02-17 10:40:48 -0500
+date:   2021-02-25 10:40:48 -0500
 categories: jekyll update
 ---
 <div class="bg_acc flex justify_center texture_dust m-b_5">
