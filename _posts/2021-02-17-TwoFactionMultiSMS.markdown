@@ -13,11 +13,11 @@ categories: jekyll update
 <div class="m_auto max-w_30 p-y_5">
 <div class="reading-reading-typography">
 <h1>Which Phone Do You Want Us to Use?</h1>
-<p>We have multiple phone numbers attached to your record.  Select the number it is best for us to send SMS to.</p>
+<p>We have multiple phone numbers attached to your record.</p>
 <fieldset class="question font_ui br_none">
     <legend
             class="label-holder flex font-size_up font_medium p-y_2">
-        <!----> <span class="flex_shrink">Select Your Perfered Number
+        <!----> <span class="flex_shrink">Select the number it is best for us to send SMS to.
         </span>
         <!----> <span
               class="required-holder flex_shrink font_n5"><i

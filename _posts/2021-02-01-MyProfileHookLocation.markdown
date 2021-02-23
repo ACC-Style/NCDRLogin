@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My Profile Update Location"
+title:  "My Profile: Location"
 date:   2021-02-01 10:40:48 -0500
 categories: jekyll update
 ---

@@ -19,7 +19,6 @@ categories: jekyll update
             class="label-holder flex font-size_up font_medium p-y_2">
         <!----> <span class="flex_shrink">Verification Code
         </span>
-
     </legend>
     <div class="flex flex_row justify_center">
     {% include digitInput.html %}
