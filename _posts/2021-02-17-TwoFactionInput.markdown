@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Two Factor Input"
-date:   2021-02-17 10:40:48 -0500
+title:  "Verification Code"
+date:   2021-02-17 10:40:48 -0300
 categories: jekyll update
 ---
 <div class="bg_acc flex justify_center texture_dust m-b_5">

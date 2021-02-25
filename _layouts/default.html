@@ -7,26 +7,33 @@
         <div class="logo_primary m-x_4 m-t_n4 w_80 w_50:md w_20:lg flex_none self_start m-t_4 m_4 relative"><a href="{{ "/" | absolute_url }}" class="expanded-click-area">&nbsp;</a></div>
         <div class="flex_auto w_20:lg w_50:md w_100"><h1 class="m-y_4"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p></div>
-      <div class="flex_auto w_40:lg w_50:md w_100 m_4">
-        {%- if site.posts.size > 0 -%}
-      <h2 class="m-y_3">Pages of the DEMO</h4>
-      <ul class="ul_none font_1 br-t_1 br_solid br_black-3 m-b_4 transition_0">
-        {%- for post in site.posts -%}
-        <li class="p-y_2 p-x_3 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
-          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-          <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
-            <a class="h:undecorated"  href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>         
-        </li>
-        {%- endfor -%}
-      </ul>
-      <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
-      </div>
-    {%- endif -%}
+
   </section>
-  <main class="p_2 p_4:md">
-    {{ content }}
+  <main class="p_2 p_4:md flex flex_column flex_row:md">
+    <div class="flex_auto w_25:lg w_40:md w_100 p-r_4">
+      {%- if site.posts.size > 0 -%}
+    <h2 class="m-y_3">Pages of the DEMO</h4>
+    <ul class="ul_none font_1 lh_1 br-t_1 br_solid br_black-3 m-b_4 transition_0">
+      <li class="p-y_2 p-x_3 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
+        <a class="h:undecorated"  href="{{ './' | relative_url }}">User Flow</a>
+      </li>
+      {% assign posts = site.posts | reverse %}
+      {%- for post in posts -%}
+      <li class="p-y_2 p-x_3 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+          <a class="h:undecorated"  href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>         
+      </li>
+      {%- endfor -%}
+      {%- endif -%}
+    </ul>
+    <!-- <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+    </div>
+    <div class="flex_auto w_70:lg w_60:md w_100 ">
+      {{ content }}
+    </div>
   </main>
 
     </div>

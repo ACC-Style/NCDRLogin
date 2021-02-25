@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Two Factor Pick Single Email"
-date: 2021-02-17 10:40:48 -0500
+title: "Two Factor Pick Email"
+date: 2021-02-17 10:40:48 -0201
 categories: jekyll update
 ---
 

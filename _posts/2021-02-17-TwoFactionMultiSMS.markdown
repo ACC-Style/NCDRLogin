@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Two Factor PickS Single Phone Number"
-date: 2021-02-17 10:40:48 -0500
+title: "Two Factor Pick SMS"
+date: 2021-02-17 10:40:48 -0200
 categories: jekyll update
 ---
 

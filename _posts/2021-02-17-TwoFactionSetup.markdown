@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Two Factor Setup"
-date: 2021-02-17 10:40:48 -0500
+date: 2021-02-17 10:40:48 -0100
 categories: jekyll update
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "NCDR Set Default Registry"
-date: 2021-02-17 10:40:48 -0500
+title: "NCDR Set Default PID"
+date: 2021-02-17 10:40:48 -0510
 categories: jekyll update
 ---
 
@@ -32,7 +32,8 @@ categories: jekyll update
 <div class="absolute b_0 bg_black-7 l_0 r_0 t_0 z_5">
 <div class="bg_white flex flex_column justify_start m-t_5 m-x_auto m-y_5 m-y_auto max-w_35 shadow_overlap-bold">
 <div class="flex_shirink p_5">
-<h1>Do you want  to make [Registry Name] your default registry?</h1>
+<h1>Do you want to make this your default participant ID?</h1>
+<p class="font_1">This will auto direct you to that participant space directly after login going forward.</p>
 <div class="text_center m-b_4">
     <button class="ease_out transition_1 f:outline_none text_center br_none inline-block w_auto font_medium p-y_3 lh_2 p-x_4 font_1 font_2:md  c_white h:c_white h:bg_primary-n2 br_primary-n3 bg_primary shadow_overlap-light br_radius m_3" label="Log In"><span class="flex block justify_center">
         <span>YES</span></span></button>

@@ -21,7 +21,7 @@
 title: NCDR Two Factor Log in
 email: mwatier@acc.org
 description: >- # this means to ignore newlines until "baseurl:"
-  This is a clickable prototype for demostration on how 2 factor authentication might work with NCDR an American College of Cardiology Product.
+  This is a clickable prototype for demonstration on how 2 factor authentication might work with NCDR an American College of Cardiology Product.  The removal of the PID input from the beginning of this flow is an alteration to the normal NCDR Login to establish this a model for universal login. This demo is build with HTML and Arches ( the ACC front end css framework ) 
 baseurl: "/NCDRLogin" # the subpath of your site, e.g. /blog
 url: "https://acc-style.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  mattwatier
