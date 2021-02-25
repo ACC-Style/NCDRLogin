@@ -14,12 +14,12 @@
       {%- if site.posts.size > 0 -%}
     <h2 class="m-y_3">Pages of the DEMO</h4>
     <ul class="ul_none font_1 lh_1 br-t_1 br_solid br_black-3 m-b_4 transition_0">
-      <li class="p-y_2 p-x_3 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
+      <li class="p_3:md p_2 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
         <a class="h:undecorated"  href="{{ './' | relative_url }}">User Flow</a>
       </li>
       {% assign posts = site.posts | reverse %}
       {%- for post in posts -%}
-      <li class="p-y_2 p-x_3 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
+      <li class="p_3:md p_2 block br-b_1 br_solid br_black-3 h:bg_black-2  transition_0">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
           <a class="h:undecorated"  href="{{ post.url | relative_url }}">
