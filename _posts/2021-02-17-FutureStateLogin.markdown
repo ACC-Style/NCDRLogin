@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Login"
-date:   2021-02-17 10:40:48 -0000
+title:  "FUTURE STATE: Login"
+date:   2021-02-17 10:40:48 -0900
 categories: jekyll update
 ---
 <div class="bg_acc flex justify_center texture_dust m-b_5">
@@ -9,9 +9,9 @@ categories: jekyll update
 <i class="fas fa-sign-in font_8 c_white"></i>
 </div>
 </div>
+<div class="c_accent-n2 p_4 bg_accent-5 br_round m-x_5 m-t_3 m-b_4">*In a Future State moving the PID and changing how NCDR does authentication/access would allow for more flexibility and user experience improvements outlined in the User Flow.</div>
 <div class="m_auto max-w_30 p-y_5">
-<h1>Participant Login</h1>
-{% include participantIDInput.html %}
+<h1>Universal Login</h1>
 {% include userInput.html %}
 {% include passwordInput.html %}
 {% include loginButtonDisabled.html %}

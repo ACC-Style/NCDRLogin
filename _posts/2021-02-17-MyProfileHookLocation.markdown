@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Profile UI Updates"
-date:   2021-02-17 10:40:48 -0999
+title:  "FUTURE STATE: ACC Profile UI Updates"
+date:   2021-02-17 10:40:48 -0995
 categories: jekyll update
 ---
 <div class="p_4">
