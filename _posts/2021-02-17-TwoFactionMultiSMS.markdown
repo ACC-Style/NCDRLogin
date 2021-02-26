@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Two Factor Pick SMS"
-date: 2021-02-17 10:40:48 -0200
+title: "EDGE CASE: Multiple SMS"
+date: 2021-02-17 10:40:48 -0800
 categories: jekyll update
 ---
 
