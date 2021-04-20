@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "NCRD: Individual Profile"
+title:  "NCDR: Individual Profile"
 date:   2021-02-17 10:40:48 -0710
 categories: jekyll update
 ---
