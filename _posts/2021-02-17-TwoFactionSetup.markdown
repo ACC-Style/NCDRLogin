@@ -18,18 +18,6 @@ categories: jekyll update
 </div>
 <div class="flex align-stretch m-x_5:lg p-b_5">
     <div
-         class="flex_none w_30 m-x_auto br_solid br_primary h:bg_primary-4 relative br_1 br_radius flex_column flex shadow_overlap-light">
-         <div class="absolute t_n1 r_3">
-         {% include featureTabFlag.html %}
-         </div>
-        <div class="p_4 p-t_5"><h2 class="lh_1 c_primary">Authenticator<br>App
-        </h2>
-        <p class="font_0">Some information around it</p></div>
-        <div
-             class="bg_primary-n1 c_white br-br_radius br-bl_radius br-t_1 br_solid br_primary m-t_auto flex justify_center text_center font_3 p-y_4 m-b_n1">
-            <i class="m-t_2 fas fa-check-circle "></i></div>
-    </div>
-    <div
          class="flex_none w_30 m-x_auto br_solid br_black-3 h:bg_primary-4 relative br_1 br_radius flex_column flex">
         <div class="p_4 p-t_5">
             <h2 class="lh_1 c_primary">Email</h2>
@@ -48,6 +36,18 @@ categories: jekyll update
         <div
              class="bg_black-5 c_white br-br_radius br-bl_radius br-t_1 br_solid br_black-3 m-t_auto flex justify_center text_center font_3 p-y_4 m-b_n1">
             <i class="m-t_2 far fa-circle"></i></div>
+    </div>
+     <div
+         class="flex_none w_30 m-x_auto br_solid br_black-3 h:bg_primary-4 relative br_1 br_radius flex_column flex">
+        <div class="p_4 p-t_5">
+            <h2 class="lh_1 c_primary">Voice
+            </h2>
+            <p class="font_0">We will call you with a verification code on your phone every time you login.</p>
+        </div>
+        <div
+             class="bg_black-5 c_white br-br_radius br-bl_radius br-t_1 br_solid br_black-3 m-t_auto flex justify_center text_center font_3 p-y_4 m-b_n1">
+            <i class="m-t_2 far fa-circle"></i>
+        </div>
     </div>
 </div>
 <div class=" text_center p_3 m-t_auto">
